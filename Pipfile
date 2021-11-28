@@ -3,8 +3,13 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://gitlab.matrix.org/api/v4/projects/27/packages/pypi/simple"
+verify_ssl = true
+name = "matrix-gitlab"
+
 [packages]
-python-olm = {version = "==3.2.6", index = "https://gitlab.matrix.org/api/v4/projects/27/packages/pypi/simple" }
+python-olm = {version = "==3.2.6", index = "matrix-gitlab" }
 simplematrixbotlib = "==2.4.0"
 pantalaimon = "==0.10.3"
 
