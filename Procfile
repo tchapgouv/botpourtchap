@@ -1,2 +1,2 @@
 web: false
-bot: run.sh
+bot: sh run.sh
