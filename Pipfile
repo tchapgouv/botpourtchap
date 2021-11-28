@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+python-olm = {version = "==3.2.6", index = "https://gitlab.matrix.org/api/v4/projects/27/packages/pypi/simple" }
 simplematrixbotlib = "==2.4.0"
 pantalaimon = "==0.10.3"
 
