@@ -1,2 +1,0 @@
-simplematrixbotlib==2.4.0
-pantalaimon==0.10.3
