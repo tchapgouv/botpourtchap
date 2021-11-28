@@ -7,6 +7,8 @@ import os
 import simplematrixbotlib as botlib
 
 MATRIX_HOME_SERVER=os.environ["MATRIX_HOME_SERVER"]
+if "PANTALAIMON_PORT" in os.environ:
+    MATRIX_HOME_SERVER="http://localhost:"+os.environ["PANTALAIMON_PORT"]
 MATRIX_BOT_USERNAME=os.environ["MATRIX_BOT_USERNAME"]
 MATRIX_BOT_PASSWORD=os.environ["MATRIX_BOT_PASSWORD"]
 
